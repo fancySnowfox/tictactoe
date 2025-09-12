@@ -1,10 +1,9 @@
-import React, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import styled from "styled-components";
 import { DIMENSIONS, PLAYER_X, PLAYER_O, SQUARE_DIMS, DRAW} from "./constants";
 import { getRandomInt, switchPlayer } from "./utils";
 import { GAME_STATES } from "./constants";
 import { useCallback } from "react";
-import { motion, motionValue } from "framer-motion";
 import Board from "./Board";
 
 

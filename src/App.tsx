@@ -1,9 +1,6 @@
-import React from "react";
 import TicTacToe from "./TicTacToe";
 import "papercss/dist/paper.min.css";
 import styled from "styled-components";
-import {DIMENSIONS} from "./constants";
-
 
 export default function App() {
   return (

@@ -99,9 +99,5 @@ export default class Board {
       }
       return null;
     };
-
-    const clone = () => {
-      return new Board(this.grid.concat());
-    };
   }
 }
