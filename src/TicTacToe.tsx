@@ -68,7 +68,7 @@ export default function TicTacToe({dims=DIMENSIONS}){
     };
    
     useEffect(() => {
-        let timeout: NodeJS.Timeout;
+        let timeout : NodeJS.Timeout;
        
         if (
           nextMove !== null &&

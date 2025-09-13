@@ -24,6 +24,7 @@
     "styled-components": "^6.1.19"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.13.0",
     "@eslint/js": "^9.33.0",
     "@types/jasmine": "^5.1.9",
     "@types/node": "^24.3.1",
@@ -36,6 +37,7 @@
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "wrangler": "^4.36.0"
   }
 }
